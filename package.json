@@ -1,0 +1,48 @@
+{
+  "name": "etquis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "files": [
+    "lib",
+    "index.js"
+  ],
+  "scripts": {
+    "all": "run-s lint",
+    "lint": "eslint .",
+    "test": "karma start",
+    "dev": "karma start --auto-watch --no-single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EdaLind/etquis.git"
+  },
+  "author": "KarsonGoldner",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.25.0",
+    "eslint-plugin-bpmn-io": "^0.16.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "npm-run-all": "^4.1.5",
+    "diagram-js": "^9.1.0",
+    "karma": "^6.4.1",
+    "karma-chrome-launcher": "^3.1.1",
+    "karma-firefox-launcher": "^2.1.2",
+    "karma-mocha": "^2.0.1",
+    "karma-sinon-chai": "^2.0.2",
+    "karma-webpack": "^5.0.0",
+    "mocha": "^10.1.0",
+    "mocha-test-container-support": "^0.2.0",
+    "sinon": "^14.0.1",
+    "sinon-chai": "^3.7.0",
+    "webpack": "^5.74.0"
+  },
+  "dependencies": {
+    "htm": "^3.1.1",
+    "preact": "^10.11.2"
+  },
+  "bugs": {
+    "url": "https://github.com/EdaLind/etquis.git/issues"
+  },
+  "homepage": "https://github.com/EdaLind/etquis.git"
+}
